@@ -1,4 +1,4 @@
-# =======xxxxxxxxxxxx Created by Aashish admin of pythonworld xxxxxxxxxxxx==================
+# =======xxxxxxxxxxxx Created by Chinmay Jagtap - student PCCOER xxxxxxxxxxxx==================
 
 
 
@@ -14,7 +14,11 @@ from tkinter import filedialog
 #=================== End ===========================================
 
 
+
          #==================== Functions code starts here ======================
+         
+         
+         
 
 # ==========================  Total Button Code ==========================
 def total_bills():
@@ -579,7 +583,7 @@ def Send():
                         requests.request("GET", url, headers=headers, params=querystring)
                         
                 
-                        messagebox.showinfo("Send SMS",'Bill has been send to your successfully')
+                        messagebox.showinfo("Send SMS",'Bill has been send to your contact number successfully')
 
                 
         send_msg = Button(innerframe5,text="Send Bill",relief=RAISED,borderwidth=2,font=('verdana',8,'bold'),bg='#ff8000',fg="white",padx=20,command=send_bill)
@@ -918,4 +922,4 @@ clr.place(x=160,y=275)
 root.mainloop()
 
 
-# ==============xxxxxxxxxxxxxxxxxxxx==== End code Here =======xxxxxxxxxxxxxxxx========== 
+# ==============xxxxxxxxxxxxxxxxxxxx==== Code ends Here =======xxxxxxxxxxxxxxxx========== 
