@@ -2,7 +2,7 @@
 
 
 
-#=========== Importing Suitable Libraries =========================
+#=========== Importing Required Libraries =========================
 from tkinter import *
 import tkinter as tk
 from tkinter.scrolledtext import ScrolledText
